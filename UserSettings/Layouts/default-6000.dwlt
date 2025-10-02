@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 617.3334
     height: 349.33334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 0
     width: 345.3333
     height: 573.3333
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 22}
@@ -427,8 +427,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 934.6667
-    y: 78.66667
+    x: 935.6667
+    y: 24
     width: 344.3333
     height: 547.3333
   m_SerializedDataModeController:
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 78.66667
+    y: 24
     width: 316.33334
     height: 323.33334
   m_SerializedDataModeController:
@@ -544,8 +544,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 317.33334
-    y: 78.66667
+    x: 318.33334
+    y: 24
     width: 615.3334
     height: 323.33334
   m_SerializedDataModeController:
@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.01380716, y: -0.017900456, z: 0.00024825774, w: -0.99975586}
     speed: 2
-    m_Value: {x: -0.0138070015, y: -0.01790025, z: 0.0002482549, w: -0.9997444}
+    m_Value: {x: -0.01380716, y: -0.017900458, z: 0.00024825774, w: -0.9997559}
   m_Size:
     m_Target: 1343.9075
     speed: 2
@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 428
+    y: 24
     width: 481.66666
     height: 197.99997
   m_SerializedDataModeController:
@@ -1345,7 +1345,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 6ab00000
     m_LastClickedID: 45162
-    m_ExpandedIDs: 000000003caa000060b0000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000050af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1374,7 +1374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003caa0000
+    m_ExpandedIDs: 0000000050af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1406,18 +1406,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000044030000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SkeldarV200_Material
-      m_OriginalName: SkeldarV200_Material
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 45162
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 11}
@@ -1454,8 +1454,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 482.6667
-    y: 428
+    x: 483.66666
+    y: 24
     width: 450.00003
     height: 197.99997
   m_SerializedDataModeController:
@@ -1499,7 +1499,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 64b00000
     m_LastClickedID: 45156
-    m_ExpandedIDs: 000000003caa000060b0000068b0000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000050af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1528,7 +1528,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003caa0000
+    m_ExpandedIDs: 0000000050af0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1560,18 +1560,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 00000000eeb30100104e0100ca020000b4030000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SKELDAR_V200
-      m_OriginalName: SKELDAR_V200
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 45158
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 12}
