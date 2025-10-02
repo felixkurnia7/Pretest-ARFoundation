@@ -123,6 +123,7 @@
     <None Include="Assets\LeanTween\License.txt" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
     <None Include="Assets\AudioToolkit\Readme.txt" />
+    <None Include="Assets\UI - BUILDER\Source Files\Fonts\OpenSans-Familiy\OpenSansLic.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
