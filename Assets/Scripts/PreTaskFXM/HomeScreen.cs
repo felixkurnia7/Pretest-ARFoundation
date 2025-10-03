@@ -3,24 +3,30 @@ using UnityEngine.SceneManagement;
 
 public class HomeScreen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public InputSystem_Actions _inputAction;
+
+    private void OnEnable()
     {
-        
+        _inputAction.Enable();
+        _inputAction.Home.Back.performed += ctx =>
+        {
+            SceneTransition.FadeOut(2f, QuitApplication);
+        };
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            QuitApplication();
-        }
+        _inputAction = new InputSystem_Actions();
+    }
+
+    private void OnDisable()
+    {
+        _inputAction.Disable();
     }
 
     public void StartApp()
     {
-        SceneManager.LoadScene("ARScene");
+        SceneTransition.FadeAndLoad("Empty", 1f);
     }
 
     public void QuitApplication()
@@ -28,7 +34,7 @@ public class HomeScreen : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+        SceneTransition.FadeIn(2f, () => Application.Quit());
 #endif
     }
 }

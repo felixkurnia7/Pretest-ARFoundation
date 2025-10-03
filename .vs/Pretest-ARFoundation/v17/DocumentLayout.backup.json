@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Pretest-ARFoundation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Pretest-ARFoundation\\Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FadeAnimation.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:09:05.966Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeScreen.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:16:23.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SegmentedDimmer.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.magicleap@4e7d0d3992e4\\Runtime\\URP\\SegmentedDimmer\\SegmentedDimmer.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAQwPkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:48:33.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T10:48:33.897Z"
             }
           ]
         }

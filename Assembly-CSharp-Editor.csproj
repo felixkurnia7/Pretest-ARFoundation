@@ -61,14 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioObject_Editor.cs" />
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioController_Editor.cs" />
     <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioLogView.cs" />
-    <Compile Include="Assets\AudioToolkit\ExampleBehaviours\Editor\PlayAudio_Editor.cs" />
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioItemOverview.cs" />
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioUtility.cs" />
-    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioCreateMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
