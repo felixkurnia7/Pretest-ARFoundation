@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Pretest-ARFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AudioToolkitDemo.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
+              "RelativeToolTip": "Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T06:46:16.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AudioUtility.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
@@ -45,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AudioController_Editor.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
@@ -65,11 +82,12 @@
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADwvzkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:16:30.132Z"
+              "WhenOpened": "2025-10-03T03:16:30.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FadeAnimation.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
@@ -87,7 +105,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwBkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T14:16:23.427Z",
               "EditorCaption": ""

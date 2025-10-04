@@ -1,0 +1,5 @@
+D:/UnityProjects/Pretest-ARFoundation/.utmp/RelWithDebInfo/6n1u4t1j/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/UnityProjects/Pretest-ARFoundation/.utmp/RelWithDebInfo/6n1u4t1j/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/UnityProjects/Pretest-ARFoundation/.utmp/RelWithDebInfo/6n1u4t1j/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+D:/UnityProjects/Pretest-ARFoundation/.utmp/RelWithDebInfo/6n1u4t1j/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+D:/UnityProjects/Pretest-ARFoundation/.utmp/RelWithDebInfo/6n1u4t1j/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir

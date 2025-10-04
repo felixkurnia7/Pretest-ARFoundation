@@ -6,14 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
-    guid: 07cd4aa550207d94e86d7b4459c61e2e
-  - enabled: 1
-    path: Assets/Scenes/ARScene.unity
-    guid: 4755b35b590504809a7525fd2109c2e2
-  - enabled: 1
-    path: Assets/Scenes/Empty.unity
-    guid: 345a232681d839c4ba13d1507751cfdd
+    path: Assets/Samples/XR Interaction Toolkit/3.1.1/AR Starter Assets/ARDemoScene.unity
+    guid: da4db6c21a88243878fecfe160c1be3b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
