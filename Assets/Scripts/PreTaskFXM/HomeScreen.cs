@@ -1,9 +1,15 @@
+using CS.AudioToolkit;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HomeScreen : MonoBehaviour
 {
-    public InputSystem_Actions _inputAction;
+    private InputSystem_Actions _inputAction;
+
+    [SerializeField]
+    private GameObject title;
+    [SerializeField]
+    private GameObject startButton;
 
     private void OnEnable()
     {
@@ -19,6 +25,18 @@ public class HomeScreen : MonoBehaviour
         _inputAction = new InputSystem_Actions();
     }
 
+    private void Start()
+    {
+        //AudioController.Play("StartScene");
+        LeanTween.move(title,
+            new Vector3(title.transform.position.x, title.transform.position.y - 900, title.transform.position.z),
+            1f).setEaseInOutSine();
+
+        LeanTween.move(startButton,
+            new Vector3(startButton.transform.position.x, startButton.transform.position.y + 1000, startButton.transform.position.z),
+            1f).setEaseInOutSine();
+    }
+
     private void OnDisable()
     {
         _inputAction.Disable();
@@ -26,6 +44,7 @@ public class HomeScreen : MonoBehaviour
 
     public void StartApp()
     {
+        AudioController.Play("ButtonClick");
         SceneTransition.FadeAndLoad("Empty", 1f);
     }
 
