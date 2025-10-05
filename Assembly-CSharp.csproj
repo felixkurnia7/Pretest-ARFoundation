@@ -92,6 +92,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Scripts\PreTaskFXM\FadeAnimation.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\Marker\ARPlaceObject.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\InputSystem_Actions.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />

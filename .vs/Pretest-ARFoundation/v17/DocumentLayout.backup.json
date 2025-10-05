@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Pretest-ARFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\scripts\\arinteractorspawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|solutionrelative:assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\scripts\\arinteractorspawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\scripts\\arcontactspawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|solutionrelative:assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\scripts\\arcontactspawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\ardemosceneassets\\scripts\\arsamplemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|solutionrelative:assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\ardemosceneassets\\scripts\\arsamplemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +50,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ARPlaceObject.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARPlaceObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Marker\\ARPlaceObject.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARPlaceObject.cs",
+              "RelativeToolTip": "Assets\\Marker\\ARPlaceObject.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T02:01:06.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ARContactSpawnTrigger.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
+              "RelativeToolTip": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T01:47:37.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ARInteractorSpawnTrigger.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
+              "RelativeToolTip": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwFcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T01:44:58.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ARSampleMenuManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
+              "RelativeToolTip": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowEcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T01:40:54.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AudioToolkitDemo.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
@@ -46,12 +111,11 @@
               "RelativeToolTip": "Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T06:46:16.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T06:46:16.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AudioUtility.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
@@ -62,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AudioController_Editor.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
@@ -74,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
@@ -82,12 +146,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADwvzkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:16:30.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T03:16:30.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FadeAnimation.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
@@ -99,16 +162,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeScreen.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:16:23.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T14:16:23.427Z"
             }
           ]
         }

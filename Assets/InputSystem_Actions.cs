@@ -1090,6 +1090,24 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Touch"",
+                    ""type"": ""Value"",
+                    ""id"": ""bec4588e-1b7c-4816-89c8-6cd4379e7233"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Tap Start Position"",
+                    ""type"": ""Value"",
+                    ""id"": ""223d758d-8e85-4b9f-bbb5-875699be3386"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -1103,6 +1121,61 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""Back"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd812213-51bb-4a6c-85b8-3bfec87291ba"",
+                    ""path"": ""<Touchscreen>/primaryTouch/tap"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Touch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7dfbe401-0413-4ba1-9d47-428d16315dce"",
+                    ""path"": ""<TouchscreenGestureInputController>/tapStartPosition"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tap Start Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""One Modifier"",
+                    ""id"": ""df4fb2cb-38a1-4a1f-9589-c0098ddc2233"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": ""Tap(duration=0.5)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tap Start Position"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""8c2a59ea-6a64-4ba4-820b-1ec34b6b5fb8"",
+                    ""path"": ""<Mouse>/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tap Start Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""af46d825-8f36-4743-be11-d78694dcf601"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tap Start Position"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -1196,6 +1269,8 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         // Home
         m_Home = asset.FindActionMap("Home", throwIfNotFound: true);
         m_Home_Back = m_Home.FindAction("Back", throwIfNotFound: true);
+        m_Home_Touch = m_Home.FindAction("Touch", throwIfNotFound: true);
+        m_Home_TapStartPosition = m_Home.FindAction("Tap Start Position", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -1658,6 +1733,8 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Home;
     private List<IHomeActions> m_HomeActionsCallbackInterfaces = new List<IHomeActions>();
     private readonly InputAction m_Home_Back;
+    private readonly InputAction m_Home_Touch;
+    private readonly InputAction m_Home_TapStartPosition;
     /// <summary>
     /// Provides access to input actions defined in input action map "Home".
     /// </summary>
@@ -1673,6 +1750,14 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Home/Back".
         /// </summary>
         public InputAction @Back => m_Wrapper.m_Home_Back;
+        /// <summary>
+        /// Provides access to the underlying input action "Home/Touch".
+        /// </summary>
+        public InputAction @Touch => m_Wrapper.m_Home_Touch;
+        /// <summary>
+        /// Provides access to the underlying input action "Home/TapStartPosition".
+        /// </summary>
+        public InputAction @TapStartPosition => m_Wrapper.m_Home_TapStartPosition;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1702,6 +1787,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Back.started += instance.OnBack;
             @Back.performed += instance.OnBack;
             @Back.canceled += instance.OnBack;
+            @Touch.started += instance.OnTouch;
+            @Touch.performed += instance.OnTouch;
+            @Touch.canceled += instance.OnTouch;
+            @TapStartPosition.started += instance.OnTapStartPosition;
+            @TapStartPosition.performed += instance.OnTapStartPosition;
+            @TapStartPosition.canceled += instance.OnTapStartPosition;
         }
 
         /// <summary>
@@ -1716,6 +1807,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Back.started -= instance.OnBack;
             @Back.performed -= instance.OnBack;
             @Back.canceled -= instance.OnBack;
+            @Touch.started -= instance.OnTouch;
+            @Touch.performed -= instance.OnTouch;
+            @Touch.canceled -= instance.OnTouch;
+            @TapStartPosition.started -= instance.OnTapStartPosition;
+            @TapStartPosition.performed -= instance.OnTapStartPosition;
+            @TapStartPosition.canceled -= instance.OnTapStartPosition;
         }
 
         /// <summary>
@@ -1977,5 +2074,19 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnBack(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Touch" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTouch(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Tap Start Position" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTapStartPosition(InputAction.CallbackContext context);
     }
 }

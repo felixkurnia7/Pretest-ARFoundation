@@ -590,7 +590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 330898565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 688200140}
+        m_TargetAssemblyTypeName: ARPlaceObject, Assembly-CSharp
+        m_MethodName: BackToStartScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &330898565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,6 +654,7 @@ GameObject:
   - component: {fileID: 688200137}
   - component: {fileID: 688200136}
   - component: {fileID: 688200135}
+  - component: {fileID: 688200140}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -731,6 +744,19 @@ Transform:
   - {fileID: 178903555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688200140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688200134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ebd67d713796f4fac96d7dc38018f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastManager: {fileID: 688200135}
 --- !u!1 &1340340236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,14 +1318,22 @@ MonoBehaviour:
   m_EnableTouchInput: 1
   m_EnableGamepadInput: 1
   m_EnableJoystickInput: 1
-  m_PointAction: {fileID: 0}
-  m_LeftClickAction: {fileID: 0}
-  m_MiddleClickAction: {fileID: 0}
-  m_RightClickAction: {fileID: 0}
-  m_ScrollWheelAction: {fileID: 0}
-  m_NavigateAction: {fileID: 0}
-  m_SubmitAction: {fileID: 0}
-  m_CancelAction: {fileID: 0}
+  m_PointAction: {fileID: 2869410428622933342, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_LeftClickAction: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_MiddleClickAction: {fileID: -6289560987278519447, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_RightClickAction: {fileID: -2562941478296515153, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 5825226938762934180, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_NavigateAction: {fileID: -7967456002180160679, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_SubmitAction: {fileID: 3994978066732806534, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  m_CancelAction: {fileID: 2387711382375263438, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
   m_EnableBuiltinActionsAsFallback: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical

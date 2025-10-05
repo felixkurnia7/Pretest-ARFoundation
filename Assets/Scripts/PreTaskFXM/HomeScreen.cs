@@ -45,7 +45,7 @@ public class HomeScreen : MonoBehaviour
     public void StartApp()
     {
         AudioController.Play("ButtonClick");
-        SceneTransition.FadeAndLoad("Empty", 1f);
+        SceneTransition.FadeAndLoad("ARScene", 1f);
     }
 
     public void QuitApplication()
