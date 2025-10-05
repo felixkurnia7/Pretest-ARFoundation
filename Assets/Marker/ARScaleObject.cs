@@ -32,7 +32,7 @@ public class ARScaleObject : MonoBehaviour
             if (_initialDistance == 0)
             {
                 _initialDistance = curDistance;
-                _initialScale = ARPlaceObject.spawnObject.transform.localScale;
+                _initialScale = ARPlaceObject.SpawnObject.transform.localScale;
             }
             else
             {
@@ -48,7 +48,7 @@ public class ARScaleObject : MonoBehaviour
                     Mathf.Clamp(newScale.y, minScale, maxScale),
                     Mathf.Clamp(newScale.z, minScale, maxScale)
                 );
-                ARPlaceObject.spawnObject.transform.localScale = newScale;
+                ARPlaceObject.SpawnObject.transform.localScale = newScale;
             }
         }
         else

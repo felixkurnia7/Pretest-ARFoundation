@@ -1108,6 +1108,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Tap"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""4151f74d-f579-4f78-a77e-03a3f050b3c1"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -1174,6 +1183,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""TouchPress"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0fc5edd3-222e-4541-b937-71a8f291e045"",
+                    ""path"": ""<Touchscreen>/primaryTouch/tap"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tap"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1271,6 +1291,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Home_Back = m_Home.FindAction("Back", throwIfNotFound: true);
         m_Home_Touch = m_Home.FindAction("Touch", throwIfNotFound: true);
         m_Home_TouchPress = m_Home.FindAction("TouchPress", throwIfNotFound: true);
+        m_Home_Tap = m_Home.FindAction("Tap", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -1735,6 +1756,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Home_Back;
     private readonly InputAction m_Home_Touch;
     private readonly InputAction m_Home_TouchPress;
+    private readonly InputAction m_Home_Tap;
     /// <summary>
     /// Provides access to input actions defined in input action map "Home".
     /// </summary>
@@ -1758,6 +1780,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Home/TouchPress".
         /// </summary>
         public InputAction @TouchPress => m_Wrapper.m_Home_TouchPress;
+        /// <summary>
+        /// Provides access to the underlying input action "Home/Tap".
+        /// </summary>
+        public InputAction @Tap => m_Wrapper.m_Home_Tap;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1793,6 +1819,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @TouchPress.started += instance.OnTouchPress;
             @TouchPress.performed += instance.OnTouchPress;
             @TouchPress.canceled += instance.OnTouchPress;
+            @Tap.started += instance.OnTap;
+            @Tap.performed += instance.OnTap;
+            @Tap.canceled += instance.OnTap;
         }
 
         /// <summary>
@@ -1813,6 +1842,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @TouchPress.started -= instance.OnTouchPress;
             @TouchPress.performed -= instance.OnTouchPress;
             @TouchPress.canceled -= instance.OnTouchPress;
+            @Tap.started -= instance.OnTap;
+            @Tap.performed -= instance.OnTap;
+            @Tap.canceled -= instance.OnTap;
         }
 
         /// <summary>
@@ -2088,5 +2120,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnTouchPress(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Tap" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTap(InputAction.CallbackContext context);
     }
 }

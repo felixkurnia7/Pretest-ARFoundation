@@ -1,10 +1,7 @@
-using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.XR.ARFoundation;
 using System.Collections.Generic;
 using UnityEngine.XR.ARSubsystems;
-using System.Collections;
 
 public class ARPlaceObject : MonoBehaviour
 {
@@ -12,7 +9,9 @@ public class ARPlaceObject : MonoBehaviour
 
     private InputSystem_Actions _inputAction;
     private bool isPlaced = false;
-    public static GameObject spawnObject { get; private set; }
+    private Quaternion _defaultRotation;
+    private Vector3 _defaultScale = Vector3.one;
+    public static GameObject SpawnObject { get; private set; }
 
 
     private void OnEnable()
@@ -54,25 +53,47 @@ public class ARPlaceObject : MonoBehaviour
 
         if (rayHits.Count > 0)
         {
-            if (spawnObject != null)
+            if (SpawnObject != null)
             {
-                Destroy(spawnObject);
+                Destroy(SpawnObject);
             }
 
             Vector3 hitPosition = rayHits[0].pose.position;
             Quaternion hitRotation = rayHits[0].pose.rotation;
-            spawnObject = Instantiate(raycastManager.raycastPrefab, hitPosition, hitRotation);
-            LeanTween.scale(spawnObject, Vector3.one * 0.1f, 1f).setEaseOutBack();
+            SpawnObject = Instantiate(raycastManager.raycastPrefab, hitPosition, hitRotation);
+            LeanTween.scale(SpawnObject, Vector3.one * 0.1f, 1f).setEaseOutBack().setOnComplete(() =>
+            {
+                _defaultRotation = SpawnObject.transform.rotation;
+                _defaultScale = SpawnObject.transform.localScale;
+            });
+        }
+    }
+
+    public void PlayAnimation()
+    {
+        if (SpawnObject != null)
+        {
+            SpawnObject.GetComponent<HelicopterAnimation>()?.StartFlight();
+        }
+    }
+
+    public void ResetObject()
+    {
+        if (SpawnObject != null)
+        {
+            //LeanTween.move(SpawnObject, Vector3.zero, 1f).setEaseInOutSine();
+            LeanTween.rotate(SpawnObject, _defaultRotation.eulerAngles, 1f).setEaseOutQuad();
+            LeanTween.scale(SpawnObject, _defaultScale, 1f).setEaseOutQuad();
         }
     }
 
     public void RemoveObject()
     {
         isPlaced = false;
-        if (spawnObject != null)
+        if (SpawnObject != null)
         {
-            LeanTween.scale(spawnObject, Vector3.zero, 1f).setEaseInBack()
-                .setOnComplete(() => Destroy(spawnObject));
+            LeanTween.scale(SpawnObject, Vector3.zero, 1f).setEaseInBack()
+                .setOnComplete(() => Destroy(SpawnObject));
         }
 
     }

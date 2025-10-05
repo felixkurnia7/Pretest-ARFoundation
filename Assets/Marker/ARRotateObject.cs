@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 
 public class ARRotateObject : MonoBehaviour
@@ -32,8 +31,6 @@ public class ARRotateObject : MonoBehaviour
         bool isPressed = _inputAction.Home.TouchPress.ReadValue<float>() > 0.1f;
         Vector2 curPosition = _inputAction.Home.Touch.ReadValue<Vector2>();
 
-        Debug.Log($"isPressed: {isPressed}, curPosition: {curPosition}");
-
         if (isPressed)
         {
             if (!_isDragging)
@@ -44,7 +41,7 @@ public class ARRotateObject : MonoBehaviour
             else
             {
                 Vector2 delta = curPosition - _lastPosition;
-                ARPlaceObject.spawnObject.transform.Rotate(0, -delta.x * rotationSpeed, 0, Space.World);
+                ARPlaceObject.SpawnObject.transform.Rotate(0, -delta.x * rotationSpeed, 0, Space.World);
                 _lastPosition = curPosition;
             }
         }
