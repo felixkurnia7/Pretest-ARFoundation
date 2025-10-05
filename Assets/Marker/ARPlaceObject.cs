@@ -12,6 +12,7 @@ public class ARPlaceObject : MonoBehaviour
 
     private InputSystem_Actions _inputAction;
     private bool isPlaced = false;
+    public static GameObject spawnObject { get; private set; }
 
 
     private void OnEnable()
@@ -34,12 +35,10 @@ public class ARPlaceObject : MonoBehaviour
     {
         if (!raycastManager) return;
 
-        if (_inputAction.Home.TapStartPosition.triggered && !isPlaced)
+        if (_inputAction.Home.Touch.triggered && !isPlaced)
         {
             isPlaced = true;
-
-            PlaceObject(_inputAction.Home.TapStartPosition.ReadValue<Vector2>());
-
+            PlaceObject(_inputAction.Home.Touch.ReadValue<Vector2>());
         }
     }
 
@@ -55,18 +54,26 @@ public class ARPlaceObject : MonoBehaviour
 
         if (rayHits.Count > 0)
         {
+            if (spawnObject != null)
+            {
+                Destroy(spawnObject);
+            }
+
             Vector3 hitPosition = rayHits[0].pose.position;
             Quaternion hitRotation = rayHits[0].pose.rotation;
-            var spawnObject = Instantiate(raycastManager.raycastPrefab, hitPosition, hitRotation);
+            spawnObject = Instantiate(raycastManager.raycastPrefab, hitPosition, hitRotation);
             LeanTween.scale(spawnObject, Vector3.one * 0.1f, 1f).setEaseOutBack();
         }
-
-        StartCoroutine(SetIsPlaceToFalseDelayed());
     }
 
-    IEnumerator SetIsPlaceToFalseDelayed()
+    public void RemoveObject()
     {
-        yield return new WaitForSeconds(0.25f);
         isPlaced = false;
+        if (spawnObject != null)
+        {
+            LeanTween.scale(spawnObject, Vector3.zero, 1f).setEaseInBack()
+                .setOnComplete(() => Destroy(spawnObject));
+        }
+
     }
 }

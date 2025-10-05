@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\PlayMusicPlaylist.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Marker\ARScaleObject.cs" />
     <Compile Include="Assets\AudioToolkit\Demo\AudioToolkitDemo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\MobileARTemplateAssets\UI\Scripts\CutoutMaskUI.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\StopAllAudio.cs" />
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\UnpauseAllAudio.cs" />
+    <Compile Include="Assets\Marker\ARRotateObject.cs" />
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\StopAudio.cs" />
     <Compile Include="Assets\Scripts\PreTaskFXM\HomeScreen.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
