@@ -4,7 +4,7 @@ using UnityEngine;
 public class Heicopter : MonoBehaviour
 {
     [SerializeField] private Canvas triviaCanvas;
-    [SerializeField] private float fadeDuration = 0.4f;
+    [SerializeField] private float fadeDuration = 1f;
 
     private CanvasGroup canvasGroup;
 
