@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 145
+  controlID: 60
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -383,8 +383,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 545
-    y: 24
+    x: 544
+    y: 501.6
     width: 523.6
     height: 268.4
   m_SerializedDataModeController:
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79.200005
     width: 269.4
     height: 396.4
   m_SerializedDataModeController:
@@ -440,7 +440,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5cdffefff6dffeffc8fafeffd236ffffd836ffff1afbffff84ac0000
+      m_ExpandedIDs: ca5cffffe25cffffe460ffff0c61ffff8075ffff9875ffff9e79ffffca79ffffac81ffffaa8effff8293ffff6294ffff34ddffff34f0ffff1afbffff9ac2000004da0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -487,8 +487,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 271.4
-    y: 24
+    x: 270.4
+    y: 79.200005
     width: 462.80002
     height: 396.4
   m_SerializedDataModeController:
@@ -1059,9 +1059,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.7384806, y: 1.4248296, z: -0.3716454}
+    m_Target: {x: 321, y: 545.7001, z: 0}
     speed: 2
-    m_Value: {x: 0.7384806, y: 1.4248296, z: -0.3716454}
+    m_Value: {x: 321, y: 545.7001, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -1107,13 +1107,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.29292113, y: 0.07447509, z: -0.02291844, w: 0.9530111}
+    m_Target: {x: 0.40966082, y: -0.059062812, z: 0.026566803, w: 0.90999657}
     speed: 2
-    m_Value: {x: -0.2929211, y: -0.07447508, z: 0.02291844, w: -0.9530111}
+    m_Value: {x: 0.40963832, y: -0.059059568, z: 0.026565343, w: 0.90994656}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 243.99757
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 243.99757
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.15698576, y: -0.27907464, z: 0.04630055, w: -0.94622433}
     speed: 2
-    m_Value: {x: -0.15698574, y: -0.2790746, z: 0.046300545, w: -0.9462243}
+    m_Value: {x: -0.15698487, y: -0.27907303, z: 0.046300285, w: -0.9462189}
   m_Size:
     m_Target: 0.8660254
     speed: 2
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 501.6
     width: 543
     height: 268.4
   m_SerializedDataModeController:
@@ -1969,9 +1969,9 @@ MonoBehaviour:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98b00000
-    m_LastClickedID: 45208
-    m_ExpandedIDs: 00000000ceb00000
+    m_SelectedIDs: ceb00000
+    m_LastClickedID: 45262
+    m_ExpandedIDs: 00000000ceb0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2032,18 +2032,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000044030000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: InputSystem_Actions
+      m_OriginalName: InputSystem_Actions
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 740
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 12}
@@ -2106,7 +2106,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Marker
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2116,16 +2116,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Marker
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\UnityProjects\Pretest-ARFoundation
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
-    m_SelectedIDs: 12b20000
-    m_LastClickedID: 45586
-    m_ExpandedIDs: 00000000ceb00000
+    m_SelectedIDs: 4eb20000
+    m_LastClickedID: 45646
+    m_ExpandedIDs: 00000000ceb0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2180,24 +2180,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4acffeff
-    m_LastClickedInstanceID: -78006
+    m_SelectedInstanceIDs: 0cb10000
+    m_LastClickedInstanceID: 45324
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000eeb30100104e0100ca020000b40300000cae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Helicopter
+      m_OriginalName: Helicopter
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 42416
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 13}
@@ -3144,8 +3144,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1070.6
-    y: 24
+    x: 1069.6
+    y: 79.200005
     width: 465.40002
     height: 690.8
   m_SerializedDataModeController:
@@ -3194,8 +3194,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Simulator\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 736.2
-    y: 24
+    x: 735.2
+    y: 79.200005
     width: 332.39996
     height: 396.4
   m_SerializedDataModeController:
@@ -3225,7 +3225,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_SimulatorState:
     controlPanelVisible: 0
-    controlPanelWidth: NaN
+    controlPanelWidth: 0
     controlPanelFoldoutKeys:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     controlPanelFoldoutValues: 00

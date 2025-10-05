@@ -36,19 +36,8 @@ public class ARScaleObject : MonoBehaviour
             }
             else
             {
-                //float scaleFactor = (curDistance - _initialDistance) * scaleSpeed;
-                //ARPlaceObject.spawnObject.transform.localScale = _initialScale + Vector3.one * scaleFactor;
-
-                float scaleFactor = (curDistance / _initialDistance) -1f;
-                float targetScale = 1f * scaleFactor * scaleSpeed;
-
-                Vector3 newScale = _initialScale * targetScale;
-                newScale = new Vector3(
-                    Mathf.Clamp(newScale.x, minScale, maxScale),
-                    Mathf.Clamp(newScale.y, minScale, maxScale),
-                    Mathf.Clamp(newScale.z, minScale, maxScale)
-                );
-                ARPlaceObject.SpawnObject.transform.localScale = newScale;
+                float scaleFactor = (curDistance - _initialDistance) * scaleSpeed;
+                ARPlaceObject.SpawnObject.transform.localScale = _initialScale * scaleFactor;
             }
         }
         else

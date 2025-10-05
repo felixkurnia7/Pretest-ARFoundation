@@ -40,7 +40,7 @@ public class TapInteractionObject : MonoBehaviour
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 // Check if the object has a Helicopter script
-                Heicopter helicopter = hit.collider.GetComponentInParent<Heicopter>();
+                Helicopter helicopter = hit.collider.GetComponentInParent<Helicopter>();
                 if (helicopter != null)
                 {
                     helicopter.OnTapped(); // show or hide trivia

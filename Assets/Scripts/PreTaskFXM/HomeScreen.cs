@@ -53,7 +53,7 @@ public class HomeScreen : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        SceneTransition.FadeIn(2f, () => Application.Quit());
+        Application.Quit();
 #endif
     }
 }
