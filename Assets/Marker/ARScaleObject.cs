@@ -4,7 +4,9 @@ using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class ARScaleObject : MonoBehaviour
 {
-    [SerializeField] private float scaleSpeed = 0.01f;
+    [SerializeField] private float scaleSpeed = 0.1f;
+    [SerializeField] private float minScale = 0.1f;
+    [SerializeField] private float maxScale = 1f;
     private float _initialDistance;
     private Vector3 _initialScale;
 
@@ -34,8 +36,19 @@ public class ARScaleObject : MonoBehaviour
             }
             else
             {
-                float scaleFactor = (curDistance - _initialDistance) * scaleSpeed;
-                ARPlaceObject.spawnObject.transform.localScale = _initialScale + Vector3.one * scaleFactor;
+                //float scaleFactor = (curDistance - _initialDistance) * scaleSpeed;
+                //ARPlaceObject.spawnObject.transform.localScale = _initialScale + Vector3.one * scaleFactor;
+
+                float scaleFactor = (curDistance / _initialDistance) -1f;
+                float targetScale = 1f * scaleFactor * scaleSpeed;
+
+                Vector3 newScale = _initialScale * targetScale;
+                newScale = new Vector3(
+                    Mathf.Clamp(newScale.x, minScale, maxScale),
+                    Mathf.Clamp(newScale.y, minScale, maxScale),
+                    Mathf.Clamp(newScale.z, minScale, maxScale)
+                );
+                ARPlaceObject.spawnObject.transform.localScale = newScale;
             }
         }
         else
