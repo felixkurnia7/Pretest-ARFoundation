@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class TapInteractionObject : MonoBehaviour
 {
+    [SerializeField] private ARRotateObject rotateObject;
     private InputSystem_Actions _inputActions;
     private Camera _mainCamera;
 
@@ -30,7 +33,7 @@ public class TapInteractionObject : MonoBehaviour
     void Update()
     {
         // Check if the user touched
-        if (_inputActions.Home.Touch.triggered)
+        if (_inputActions.Home.Touch.triggered && Touch.activeFingers.Count < 2 && !rotateObject._isDragging)
         {
             Vector2 touchPosition = _inputActions.Home.Touch.ReadValue<Vector2>();
             //ebug.Log("Tap position: " + touchPosition);

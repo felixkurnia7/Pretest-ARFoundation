@@ -1,3 +1,4 @@
+using CS.AudioToolkit;
 using UnityEngine;
 
 public class HelicopterAnimation : MonoBehaviour
@@ -41,8 +42,13 @@ public class HelicopterAnimation : MonoBehaviour
     public void StartFlight()
     {
         if (isFlying) return;
-        isFlying = true;
 
+        var triviaCanvas = GetComponentInChildren<Canvas>(true);
+        if (triviaCanvas != null && triviaCanvas.gameObject.activeSelf)
+            triviaCanvas.gameObject.SetActive(false);
+
+        isFlying = true;
+        AudioController.Play("Helicopter");
         Debug.Log("Taking off...");
 
         // Step 1: Takeoff
@@ -88,6 +94,7 @@ public class HelicopterAnimation : MonoBehaviour
             .setEaseInQuad()
             .setOnComplete(() =>
             {
+                AudioController.Stop("Helicopter");
                 isFlying = false;
                 Debug.Log("Landed on original position!");
             });

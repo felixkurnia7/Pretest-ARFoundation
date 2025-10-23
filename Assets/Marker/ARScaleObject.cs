@@ -36,6 +36,8 @@ public class ARScaleObject : MonoBehaviour
             }
             else
             {
+                if (ARPlaceObject.SpawnObject == null) return;
+
                 float scaleFactor = (curDistance - _initialDistance) * scaleSpeed;
                 ARPlaceObject.SpawnObject.transform.localScale = _initialScale * scaleFactor;
             }

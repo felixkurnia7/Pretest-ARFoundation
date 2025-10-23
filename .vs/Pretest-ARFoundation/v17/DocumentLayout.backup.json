@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\Pretest-ARFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\marker\\heicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\heicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\arrotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arrotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|d:\\unityprojects\\pretest-arfoundation\\assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\tapinteractionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\tapinteractionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\helicopteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\helicopteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\arrotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arrotateobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arplaceobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\arscaleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arscaleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\homescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\arscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\arscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\helicopteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\helicopteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\marker\\triviapanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\marker\\triviapanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pretaskfxm\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF47E9-D5CA-EDB9-5BF0-AA6D63BAE0A9}|Assembly-CSharp.csproj|solutionrelative:assets\\audiotoolkit\\demo\\audiotoolkitdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\scripts\\arinteractorspawntrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|D:\\UnityProjects\\Pretest-ARFoundation\\assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\ardemosceneassets\\scripts\\arsamplemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC04807-2668-082C-3D84-0271E8A77C7C}|Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.csproj|solutionrelative:assets\\samples\\xr interaction toolkit\\3.1.1\\ar starter assets\\ardemosceneassets\\scripts\\arsamplemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,84 +70,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "TriviaPanel.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\TriviaPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Marker\\TriviaPanel.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\TriviaPanel.cs",
+              "RelativeToolTip": "Assets\\Marker\\TriviaPanel.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T13:27:53.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Helicopter.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\Helicopter.cs",
+              "RelativeDocumentMoniker": "Assets\\Marker\\Helicopter.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\Helicopter.cs",
+              "RelativeToolTip": "Assets\\Marker\\Helicopter.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T05:47:44.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ARScene.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Marker\\ARScene.cs",
+              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARScene.cs",
+              "RelativeToolTip": "Assets\\Marker\\ARScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T05:28:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TapInteractionObject.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\TapInteractionObject.cs",
               "RelativeDocumentMoniker": "Assets\\Marker\\TapInteractionObject.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\TapInteractionObject.cs",
               "RelativeToolTip": "Assets\\Marker\\TapInteractionObject.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAawCwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T11:48:40.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Heicopter.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\Heicopter.cs",
-              "RelativeDocumentMoniker": "Assets\\Marker\\Heicopter.cs",
-              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\Heicopter.cs",
-              "RelativeToolTip": "Assets\\Marker\\Heicopter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T11:33:06.221Z",
+              "WhenOpened": "2025-10-05T11:48:40.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "HelicopterAnimation.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\HelicopterAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Marker\\HelicopterAnimation.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\HelicopterAnimation.cs",
               "RelativeToolTip": "Assets\\Marker\\HelicopterAnimation.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T10:06:21.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ARScaleObject.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARScaleObject.cs",
               "RelativeDocumentMoniker": "Assets\\Marker\\ARScaleObject.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARScaleObject.cs",
               "RelativeToolTip": "Assets\\Marker\\ARScaleObject.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T06:37:36.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ARRotateObject.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARRotateObject.cs",
               "RelativeDocumentMoniker": "Assets\\Marker\\ARRotateObject.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARRotateObject.cs",
               "RelativeToolTip": "Assets\\Marker\\ARRotateObject.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T05:54:58.698Z"
+              "WhenOpened": "2025-10-05T05:54:58.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ARPlaceObject.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARPlaceObject.cs",
               "RelativeDocumentMoniker": "Assets\\Marker\\ARPlaceObject.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Marker\\ARPlaceObject.cs",
               "RelativeToolTip": "Assets\\Marker\\ARPlaceObject.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T02:01:06.934Z"
+              "WhenOpened": "2025-10-05T02:01:06.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ARContactSpawnTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARContactSpawnTrigger.cs",
@@ -159,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ARInteractorSpawnTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\Scripts\\ARInteractorSpawnTrigger.cs",
@@ -171,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ARSampleMenuManager.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.1.1\\AR Starter Assets\\ARDemoSceneAssets\\Scripts\\ARSampleMenuManager.cs",
@@ -183,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "AudioToolkitDemo.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
               "RelativeDocumentMoniker": "Assets\\AudioToolkit\\Demo\\AudioToolkitDemo.cs",
@@ -195,42 +221,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AudioUtility.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
-              "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
-              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
-              "RelativeToolTip": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioUtility.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:56:05.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AudioController_Editor.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
-              "RelativeDocumentMoniker": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
-              "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
-              "RelativeToolTip": "Assets\\AudioToolkit\\AudioToolkit\\Editor\\AudioController_Editor.cs",
-              "ViewState": "AgIAAI0HAAAAAAAAAAAAwJkHAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T03:55:08.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "SceneTransition.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\SceneTransition.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwD4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T03:16:30.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FadeAnimation.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\FadeAnimation.cs",
@@ -242,15 +245,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "HomeScreen.cs",
               "DocumentMoniker": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "ToolTip": "D:\\UnityProjects\\Pretest-ARFoundation\\Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\PreTaskFXM\\HomeScreen.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T14:16:23.427Z"
+              "WhenOpened": "2025-10-02T14:16:23.427Z",
+              "EditorCaption": ""
             }
           ]
         }

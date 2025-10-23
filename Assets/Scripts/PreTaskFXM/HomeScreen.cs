@@ -1,11 +1,12 @@
 using CS.AudioToolkit;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HomeScreen : MonoBehaviour
 {
     private InputSystem_Actions _inputAction;
-
+    public float rotationSpeed = 1f;
     [SerializeField]
     private GameObject title;
     [SerializeField]
@@ -16,6 +17,7 @@ public class HomeScreen : MonoBehaviour
         _inputAction.Enable();
         _inputAction.Home.Back.performed += ctx =>
         {
+            AudioController.Play("Quit");
             SceneTransition.FadeOut(2f, QuitApplication);
         };
     }
@@ -27,7 +29,7 @@ public class HomeScreen : MonoBehaviour
 
     private void Start()
     {
-        //AudioController.Play("StartScene");
+        AudioController.Play("StartScene");
         LeanTween.move(title,
             new Vector3(title.transform.position.x, title.transform.position.y - 900, title.transform.position.z),
             1f).setEaseInOutSine();
@@ -35,6 +37,13 @@ public class HomeScreen : MonoBehaviour
         LeanTween.move(startButton,
             new Vector3(startButton.transform.position.x, startButton.transform.position.y + 1000, startButton.transform.position.z),
             1f).setEaseInOutSine();
+        
+    }
+
+    private void Update()
+    {
+
+        RenderSettings.skybox.SetFloat("_Rotation", Time.time * rotationSpeed);
     }
 
     private void OnDisable()
@@ -44,7 +53,7 @@ public class HomeScreen : MonoBehaviour
 
     public void StartApp()
     {
-        AudioController.Play("ButtonClick");
+        AudioController.Play("ButtonStart");
         SceneTransition.FadeAndLoad("ARScene", 1f);
     }
 

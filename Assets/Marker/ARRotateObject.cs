@@ -8,7 +8,7 @@ public class ARRotateObject : MonoBehaviour
 
     private InputSystem_Actions _inputAction;
 
-    private bool _isDragging = false;
+    public bool _isDragging = false;
     private Vector2 _lastPosition;
 
     private void OnEnable()
@@ -40,9 +40,14 @@ public class ARRotateObject : MonoBehaviour
             }
             else
             {
-                Vector2 delta = curPosition - _lastPosition;
-                ARPlaceObject.SpawnObject.transform.Rotate(0, -delta.x * rotationSpeed, 0, Space.World);
-                _lastPosition = curPosition;
+                //if (ARPlaceObject.SpawnObject == null) return;
+                if (ARPlaceObject.SpawnObject != null)
+                {
+                    Vector2 delta = curPosition - _lastPosition;
+                    ARPlaceObject.SpawnObject.transform.Rotate(0, -delta.x * rotationSpeed, 0, Space.World);
+
+                    _lastPosition = curPosition;
+                }
             }
         }
         else

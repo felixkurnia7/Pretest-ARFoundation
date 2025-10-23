@@ -1,11 +1,15 @@
+using CS.AudioToolkit;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-using System.Collections.Generic;
 using UnityEngine.XR.ARSubsystems;
 
 public class ARPlaceObject : MonoBehaviour
 {
     [SerializeField] private ARRaycastManager raycastManager;
+    [SerializeField] ARRotateObject rotateObject;
+    [SerializeField] ARScaleObject scaleObject;
+    [SerializeField] TapInteractionObject tapInteractionObject;
 
     private InputSystem_Actions _inputAction;
     private bool isPlaced = false;
@@ -34,25 +38,20 @@ public class ARPlaceObject : MonoBehaviour
     {
         if (!raycastManager) return;
 
-        if (_inputAction.Home.Touch.triggered && !isPlaced)
+        if (_inputAction.Home.Touch.triggered)
         {
-            isPlaced = true;
             PlaceObject(_inputAction.Home.Touch.ReadValue<Vector2>());
         }
-    }
-
-    public void BackToStartScene()
-    {
-        SceneTransition.FadeAndLoad("StartScene", 1f);
     }
 
     void PlaceObject(Vector2 touchPosition)
     {
         var rayHits = new List<ARRaycastHit>();
-        raycastManager.Raycast(touchPosition, rayHits, TrackableType.Planes);
-
+        raycastManager.Raycast(touchPosition, rayHits, TrackableType.PlaneWithinPolygon);
+        Debug.Log("Raycast hits: " + rayHits.Count);
         if (rayHits.Count > 0)
         {
+            if (isPlaced) return;
             if (SpawnObject != null)
             {
                 Destroy(SpawnObject);
@@ -60,6 +59,10 @@ public class ARPlaceObject : MonoBehaviour
 
             Vector3 hitPosition = rayHits[0].pose.position;
             Quaternion hitRotation = rayHits[0].pose.rotation;
+
+            Debug.DrawRay(Camera.main.transform.position, hitPosition - Camera.main.transform.position, Color.red, 2f);
+            isPlaced = true;
+            AudioController.Play("Place");
             SpawnObject = Instantiate(raycastManager.raycastPrefab, hitPosition, hitRotation);
             LeanTween.scale(SpawnObject, Vector3.one * 0.1f, 1f).setEaseOutBack().setOnComplete(() =>
             {
@@ -69,19 +72,11 @@ public class ARPlaceObject : MonoBehaviour
         }
     }
 
-    public void PlayAnimation()
-    {
-        if (SpawnObject != null)
-        {
-            SpawnObject.GetComponent<HelicopterAnimation>()?.StartFlight();
-        }
-    }
-
     public void ResetObject()
     {
         if (SpawnObject != null)
         {
-            //LeanTween.move(SpawnObject, Vector3.zero, 1f).setEaseInOutSine();
+            AudioController.Play("ButtonClick");
             LeanTween.rotate(SpawnObject, _defaultRotation.eulerAngles, 1f).setEaseOutQuad();
             LeanTween.scale(SpawnObject, _defaultScale, 1f).setEaseOutQuad();
         }
@@ -92,6 +87,7 @@ public class ARPlaceObject : MonoBehaviour
         isPlaced = false;
         if (SpawnObject != null)
         {
+            AudioController.Play("Remove");
             LeanTween.scale(SpawnObject, Vector3.zero, 1f).setEaseInBack()
                 .setOnComplete(() => Destroy(SpawnObject));
         }

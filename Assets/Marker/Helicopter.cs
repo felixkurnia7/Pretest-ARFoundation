@@ -1,3 +1,4 @@
+using CS.AudioToolkit;
 using UnityEngine;
 
 public class Helicopter : MonoBehaviour
@@ -39,11 +40,13 @@ public class Helicopter : MonoBehaviour
 
         if (!isActive)
         {
+            AudioController.Play("Place");
             triviaCanvas.gameObject.SetActive(true);
             LeanTween.alphaCanvas(canvasGroup, 1f, fadeDuration);
         }
         else
         {
+            AudioController.Play("Remove");
             LeanTween.alphaCanvas(canvasGroup, 0f, fadeDuration)
                      .setOnComplete(() => triviaCanvas.gameObject.SetActive(false));
         }

@@ -19,7 +19,7 @@ public static class SceneTransition
         canvasObj = new GameObject("SceneTransitionCanvas");
         var canvas = canvasObj.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-        canvas.sortingOrder = 1000; // on top
+        canvas.sortingOrder = 0; // on top
         canvasObj.AddComponent<CanvasScaler>();
         canvasObj.AddComponent<GraphicRaycaster>();
 

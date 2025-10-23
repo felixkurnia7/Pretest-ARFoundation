@@ -76,6 +76,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\PauseAllAudio.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\Marker\TriviaPanel.cs" />
     <Compile Include="Assets\AudioToolkit\AudioBehaviours\Auxiliary\AudioTriggerBase.cs" />
     <Compile Include="Assets\MobileARTemplateAssets\Scripts\GoalManager.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Scripts\PreTaskFXM\FadeAnimation.cs" />
+    <Compile Include="Assets\Marker\ARScene.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Marker\TapInteractionObject.cs" />
     <Compile Include="Assets\Marker\ARPlaceObject.cs" />
